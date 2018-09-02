@@ -1,0 +1,6 @@
+@keyword font-size-small: 12px;
+@keyword font-size-big: 38px;
+
+.example {
+	font-size: font-size-small;
+}
