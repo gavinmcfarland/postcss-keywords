@@ -1,6 +1,25 @@
-@keyword font-size-small: 12px;
-@keyword font-size-big: 38px;
+@keyword smaller {
+	value: 16px;
+	property: padding, margin;
+};
+
+@keyword small {
+	value: 24px;
+	property: padding, margin;
+};
+
+@keyword medium {
+	value: 48px;
+	property: padding, margin;
+};
+
+@keyword small {
+	value: 12px;
+	property: font-size;
+};
 
 .example {
-	font-size: font-size-small;
+	font-size: small;
+	padding: small medium;
+	margin: small smaller;
 }
