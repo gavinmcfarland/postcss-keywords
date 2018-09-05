@@ -7,10 +7,25 @@
 [PostCSS Keywords] lets you create custom keywords which can be used in declarations.
 
 ```pcss
-@keyword font-size-small: 12px;
+@keyword small {
+  value: 24px;
+  property: padding, margin;
+}
+
+@keyword small {
+  value: 16px;
+  property: font-size;
+}
+
+@keyword medium {
+  value: 40px;
+  property: padding, margin;
+}
 
 .example {
-  font-size: font-size-small;
+  font-size: small;
+  padding: small medium;
+  margin: small;
 }
 ```
 
@@ -19,7 +34,9 @@ Outputs:
 
 ```css
 .example {
-  font-size: 12px;
+  font-size: 16px;
+  padding: 24px 40px;
+  margin: 24px;
 }
 ```
 
