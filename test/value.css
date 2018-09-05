@@ -1,0 +1,21 @@
+@keyword smaller {
+	value: 16px;
+};
+
+@keyword small {
+	value: 24px;
+};
+
+@keyword medium {
+	value: 48px;
+};
+
+@keyword small {
+	value: 12px;
+};
+
+.example {
+	font-size: small;
+	padding: small medium;
+	margin: small smaller;
+}

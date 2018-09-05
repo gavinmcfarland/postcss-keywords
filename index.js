@@ -34,6 +34,9 @@ function getKeyword(root) {
 
 		keywords.push(keyword);
 	});
+
+	// Reverse array so that keyword definitions that are declared later in document overide earlier rules
+	keywords.reverse();
 	return keywords;
 }
 

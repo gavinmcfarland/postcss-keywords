@@ -1,7 +1,10 @@
 module.exports = {
 	'postcss-keywords': {
-		'basic': {
-			message: 'supports basic usage'
+		'value': {
+			message: 'supports just value'
+		},
+		'properties': {
+			message: 'supports with properties'
 		}
 	}
 };
