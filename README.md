@@ -4,6 +4,8 @@
 [![Build Status][cli-img]][cli-url]
 [![Support Chat][git-img]][git-url]
 
+_Please use [PostCSS Custom Values](https://github.com/mindthetic/postcss-custom-values) as work on this plugin is [DEPRECATED]_
+
 [PostCSS Keywords] lets you create custom keywords which can be used in declarations.
 
 ```pcss
